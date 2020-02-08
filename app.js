@@ -16,7 +16,7 @@ function userSubmitEventHandler(event) {
 }
 
 function askChatBot(userInput) {
-    const myRequest = new Request('https://hamlet-bot.herokuapp.com/', {
+    const myRequest = new Request('https://hamlet-backend.herokuapp.com/', {
         method: 'POST',
         mode: 'no-cors',
         body: userInput
